@@ -108,7 +108,7 @@
 
 > *Your familiar Linux mascot.*
 
-​	读到这里，聪明的读者应该已经明白了，既然前面所提到的 GNU 万般好，就缺个内核，那我们何不结合两者？这样一个完整的操作系统不就诞生了吗？没错，我们把一个像这种点自助餐一样的搭配 Linux *内核 (kernel)* 和 *元件 (component)* 的方式，称为一个 *Linux 发行版*，而由于采 GNU 元件的发行版实在是太多了，目前市面上主流的 Linux 系统，几乎都是采用 GNU 的*库 (library)* 及*程序 (program)* （读者说得出的发行版都是。包含：Ubuntu, Debian, CentOS, Fedora, Arch Linux等，当然也有完全不使用 GNU 元件的，如Android, OpenWrt 和 Serpent OS 等），因此有人认为该把 Linux 系统称为 GNU/Linux 较为合适。
+​	读到这里，聪明的读者应该已经明白了，既然前面所提到的 GNU 万般好，就缺个内核，那我们何不结合两者？这样一个完整的操作系统不就诞生了吗？没错，我们把一个像这种点自助餐一样的搭配 Linux *内核 (kernel)* 和 *元件 (component)* 的方式，称为一个 *Linux 发行版*，而由于采用 GNU 元件的发行版实在是太多了，目前市面上主流的 Linux 系统，几乎都是采用 GNU 的*库 (library)* 及*程序 (program)* （读者说得出的发行版都是。包含：Ubuntu, Debian, CentOS, Fedora, Arch Linux等，当然也有完全不使用 GNU 元件的，如Android, OpenWrt 和 Serpent OS 等），因此有人认为该把 Linux 系统称为 GNU/Linux 较为合适。
 
 >  ***"If the GNU kernel had been ready last spring, I'd not have bothered to even start my project: the fact is that it wasn't and still isn't."** ------ LInus Torvalds, 1992*	
 
