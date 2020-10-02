@@ -31,6 +31,7 @@ html, body {
 
 #mainbox {
 	display: flex;
+	display: -webkit-flex;
 	position: relative;
 	background-color: #121117;
 	width: 100%;
@@ -43,6 +44,7 @@ html, body {
 
 #innerbox {
 	display: flex;
+	display: -webkit-flex;
 	width: 85%;
 	height: 85%;
 	background-image: url(stars-translucent.svg);
@@ -55,6 +57,7 @@ html, body {
 
 #logo {
 	display: flex;
+	display: -webkit-flex;
 	width: 120px;
 	height: 40px;
 	align-self: flex-start;
@@ -64,17 +67,26 @@ html, body {
 
 #joinbtn {
 	display: flex;
+	display: -webkit-flex;
 	width: 300px;
 	height: 80px;
 	letter-spacing: 4px;
 	font-size: 24px;
 	font-family: "DIN";
+	color: #121117;
 	border-radius: 5px;
+	border-width: 0px;
 	cursor: pointer;
 	/*align-self: flex-end;*/
 	text-align: center;
 	justify-content:center;
 	align-items:center;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+
+#joinbtn:hover {
+	background-color: #C97640;
 }
 
 .RWfont {
@@ -91,6 +103,7 @@ html, body {
 #text2 {
 	z-index: 2;
 	display: flex;
+	display: -webkit-flex;
 	align-self: center;
 	margin-left: 29px;
 }
@@ -112,6 +125,7 @@ html, body {
 
 #secondbox {
 	display: flex;
+	display: -webkit-flex;
 	position: relative;
 	background-color: #FAE2D0;
 	width: 100%;
@@ -124,6 +138,7 @@ html, body {
 #text3 {
 	z-index: 2;
 	display: flex;
+	display: -webkit-flex;
 	align-self: center;
 	margin-top: 30px;
 	margin-bottom: 100px;
@@ -142,6 +157,7 @@ html, body {
 
 #probox {
 	display: flex;
+	display: -webkit-flex;
 	vertical-align: middle;
 	align-self: center;
 	justify-content: space-between;
@@ -150,6 +166,7 @@ html, body {
 
 .product {
 	display: flex;
+	display: -webkit-flex;
 	margin: 0 40px;
 	padding: 0 80px;
 	flex-direction: column;
@@ -178,6 +195,7 @@ html, body {
 
 #more {
 	display: flex;
+	display: -webkit-flex;
 	color: black;
 	font-family: Raleway;
 	font-size: 44px;
